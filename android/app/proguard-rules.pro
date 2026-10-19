@@ -1,0 +1,7 @@
+-keep class io.flutter.** { *; }
+-keep class io.scer.pdf_renderer.** { *; }
+-keep class com.mr.flutter.plugin.filepicker.** { *; }
+-keep class com.crazecoder.openfile.** { *; }
+-dontwarn com.google.android.play.core.**
+-dontwarn java.awt.**
+-dontwarn javax.imageio.**
